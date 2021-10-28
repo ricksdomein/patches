@@ -8,7 +8,7 @@ diff '--color=auto' -ruN ../a/config.def.h ./config.def.h
 +/*  Display modes of the tab bar: never shown, always shown, shown only in  */
 +/*  monocle mode in the presence of several windows.                        */
 +/*  Modes after showtab_nmodes are disabled.                                */
-+enum showtab_modes { showtab_never, showtab_always, showtab_auto, showtab_nmodes};
++enum showtab_modes { showtab_always, showtab_auto, showtab_nmodes, showtab_never };
 +static const int showtab			= showtab_auto;        /* Default tab bar show mode */
 +static const int toptab				= True;               /* False means bottom tab bar */
 +
